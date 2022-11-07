@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "komet";
+  src: url("https://use.typekit.net/af/66c5aa/00000000000000007735a904/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/66c5aa/00000000000000007735a904/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/66c5aa/00000000000000007735a904/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+nav { 
+  padding: 20px ;
+  text-align: center;
+  margin: 5px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+}
+nav a { 
+  font-family: Komet;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: rgb(83, 83, 83);
+}
+
+body {
+  background:linear-gradient(to bottom right, rgb(20, 47, 105) , rgb(112, 140, 201) );
+}
+
+#gasly {
+  width: 360px;
+  height: 690px;
+  border-radius: 19px;
+  position: absolute; 
+}
+
+
+#tusnoda{
+  width: 530px;
+  height: 330px;
+  border-radius: 24px;
+  position: absolute; left: 465px; top: 470px;
+}
+
+#safety {
+  width: 711px;
+  height: 400px;
+  border-radius: 30px;
+  position: absolute; top: 2000px; left: 380px;
+}
+
+#esteban{
+  width: 345px;
+  height: 345px; 
+  position: absolute; top: 850px; left: 720px;
+}
+
+#alphatauri{
+  width: 358px;
+  height: 690px;
+  border-radius: 34px;
+  position: absolute; left: 1100px; top: 1250px;
+  
+}
+
+#casque{
+  width: 386px;
+  height: 386px;
+  position : absolute; top: 830px; left: 1070px;
+}
+
+#couchée{
+  width: 350px;
+  height: 690px;
+  border-radius: 25px;
+  position: absolute; top: 1250px; left: 740px;
+}
+
+#Yuki{
+  width: 370px;
+  height: 690px;
+  border-radius: 21px;
+  position: absolute; left: 1070px; 
+}
+
+#Volant{
+  width: 300px;
+  height: 300px;
+  border-radius: 21px;
+  position: absolute; left: 400px;
+}
+
+#gaslyp{
+  width: 350px;
+  height: 690px ;
+  border-radius: 25px;
+  position: absolute; top: 1250px; left: 375px;
+}
+
+#lando{
+  width: 350px;
+  height: 350px;
+  position: absolute; top: 850px; left: 360px;
+}
+
+#piere{
+  width: 350px;
+  height: 350px;
+  position: absolute; top: 850px;
+}
+
+#jac{
+  width: 300px;
+  height: 300px;
+  border-radius: 21px;
+  position: absolute; left: 750px; 
+}
+
+#personne{
+  width: 350px;
+  height: 690px;
+  border-radius: 23px;
+  position: absolute; top: 1250px; left: 10px;
+}
+
+

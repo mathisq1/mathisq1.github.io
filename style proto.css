@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "komet";
+  src: url("https://use.typekit.net/af/66c5aa/00000000000000007735a904/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/66c5aa/00000000000000007735a904/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/66c5aa/00000000000000007735a904/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+nav { 
+  padding: 25px ;
+  text-align: center;
+  margin: 10px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+}
+nav a { 
+  font-family: Komet;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: rgb(83, 83, 83);
+}
+
+body {
+  background:linear-gradient(to bottom right, rgb(20, 47, 105) , rgb(112, 140, 201) );
+}
+ 
+.titre{
+   color: white;
+   text-align: center;
+   font-size: 4rem;
+   font-family: komet;
+}
+
+#PetV{
+   position: absolute; left: 195px; top: 440px;
+   border-radius: 30px;
+}
+
+#titre1{
+position: absolute; left: 465px;
+}
+
+#p1{
+  text-align: center;
+  color: white;
+  font-family: komet;
+  font-size: 25px;
+  position: absolute; top: 260px;left: 225px;
+}
+
+#Twitch{ 
+   position: absolute; left: 200px; top: 1500px;
+   border-radius: 30px;
+}
+
+#titre2{
+position: absolute; top: 1000px;
+}
+
+#school{
+   position: absolute; left: 400px; top: 1800px;
+   border-radius: 30px;
+}
+
+#titre3{
+position:absolute; top: 2000px;
+}

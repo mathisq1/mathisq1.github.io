@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "komet";
+  src: url("https://use.typekit.net/af/66c5aa/00000000000000007735a904/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/66c5aa/00000000000000007735a904/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/66c5aa/00000000000000007735a904/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+body {
+  background: linear-gradient(to bottom right, rgb(20, 47, 105), rgb(112, 140, 201));
+}
+
+.menu a:hover {
+  color: rgb(83, 83, 83);
+}
+
+
+
+h1 {
+  color: white;
+  text-align: left;
+  font-size: 100px;
+  margin: 20px;
+}
+
+p {
+  font-family: komet;
+  font-weight: normal;
+  font-size: 35px;
+  text-align: left;
+  color: white;
+  margin: 40px;
+}
+
+nav {
+  padding: 25px;
+  text-align: center;
+  margin: 10px;
+}
+
+nav a {
+  font-family: Komet;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#annimation {
+  position: relative;
+  left: 800px;
+  top: -425px;
+  width: 500px;
+  height: 550px;
+  border: transparent;
+
+}
+
+#Insta {
+  width: 8rem;
+  height: 8rem;
+  top: -10rem;
+}
