@@ -89,8 +89,7 @@ body
             margin :auto ;
 
             padding :25px ;
-
-            background :#3c3c3c ;
+ ;
 
 }
 
@@ -168,32 +167,20 @@ padding :0px ;
  
 
 #menu-gauche
-
 {
-
-            width :100% ;
-
+width :100% ;
 }
 
- 
-
 #contenu
-
 {
-
 width :100% ;
 }
 
  
 
 #sidebar-droite
-
 {
 width :100% ;
 }
-
- 
-
- 
 
 }
