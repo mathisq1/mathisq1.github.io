@@ -74,7 +74,7 @@ body
 
 {
 
-            width :100% ;
+ width :100% ;
 
 }
 
@@ -84,11 +84,11 @@ body
 
 {
 
-            width :80% ;
+ width :80% ;
 
-            margin :auto ;
+ margin :auto ;
 
-            padding :25px ;
+  padding :25px ;
  ;
 
 }
@@ -99,7 +99,7 @@ header
 
 {
 
-            width :100% ;
+ width :100% ;
 
 }
 
@@ -109,9 +109,8 @@ header
 
 {
 
-            width :20% ;
-
-            float :left ;
+ width :20% ;
+ float :left ;
 
 }
 
@@ -121,9 +120,8 @@ header
 
 {
 
-            width :60% ;
-
-            float :left ;
+ width :60% ;
+ float :left ;
 
 }
 
