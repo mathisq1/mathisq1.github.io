@@ -42,21 +42,29 @@ body {
 }
 
 #PetV{
-   position: absolute; left: 195px; top: 440px;
+   position: absolute; left: 195px; top: 470px;
    border-radius: 30px;
 }
 
 #titre1{
-position: absolute; left: 465px;
+position: absolute; left: 468px;
 }
 
-#p1{
+.textes{
   text-align: center;
   color: white;
   font-family: komet;
   font-size: 25px;
+  height: 200px; width: 1000px;
+}
+#p1{
   position: absolute; top: 260px;left: 225px;
 }
+
+#p2{
+  position: absolute; top: 2000px;
+}
+
 
 #Twitch{ 
    position: absolute; left: 200px; top: 1500px;
@@ -64,7 +72,7 @@ position: absolute; left: 465px;
 }
 
 #titre2{
-position: absolute; top: 1000px;
+position: absolute; top: 1100px; left: 650px;
 }
 
 #school{
