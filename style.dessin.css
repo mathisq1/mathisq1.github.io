@@ -30,7 +30,8 @@ nav a {
 }
 
 body {
-  background:linear-gradient(to bottom right, rgb(20, 47, 105) , rgb(112, 140, 201) );
+  /* background:linear-gradient(to bottom right, rgb(20, 47, 105) , rgb(112, 140, 201) ); */
+  background-color: #5088b9;
 }
 
 #gasly {
@@ -69,7 +70,7 @@ body {
   
 }
 
-#casque{
+#Casque{
   width: 386px;
   height: 386px;
   position : absolute; top: 830px; left: 1070px;
@@ -86,14 +87,14 @@ body {
   width: 370px;
   height: 690px;
   border-radius: 21px;
-  position: absolute; left: 1070px; 
+  position: absolute; left: 1070px; top: 135px;
 }
 
 #Volant{
   width: 300px;
   height: 300px;
   border-radius: 21px;
-  position: absolute; left: 400px;
+  position: absolute; left: 400px; top: 135px;
 }
 
 #gaslyp{
@@ -119,7 +120,7 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 21px;
-  position: absolute; left: 750px; 
+  position: absolute; left: 750px; top: 135px;
 }
 
 #personne{

@@ -30,7 +30,8 @@ nav a {
 }
 
 body {
-  background:linear-gradient(to bottom right, rgb(20, 47, 105) , rgb(112, 140, 201) );
+  
+  background-color: #5088b9;
 }
  
 .titre{
