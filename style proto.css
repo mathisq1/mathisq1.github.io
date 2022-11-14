@@ -55,14 +55,15 @@ position: absolute; left: 468px;
   color: white;
   font-family: komet;
   font-size: 25px;
-  height: 200px; width: 1000px;
+  height: 200px; width: 200px;
 }
+
 #p1{
   position: absolute; top: 260px;left: 225px;
 }
 
 #p2{
-  position: absolute; top: 2000px;
+  position: absolute; top: 1400px; left: 225px;
 }
 
 
@@ -72,7 +73,7 @@ position: absolute; left: 468px;
 }
 
 #titre2{
-position: absolute; top: 1100px; left: 650px;
+position: absolute; top: 1150px; left: 650px;
 }
 
 #school{
