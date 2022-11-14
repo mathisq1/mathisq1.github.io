@@ -55,20 +55,22 @@ position: absolute; left: 468px;
   color: white;
   font-family: komet;
   font-size: 25px;
-  height: 200px; width: 200px;
 }
 
 #p1{
   position: absolute; top: 260px;left: 225px;
+  height: 200px; width: 1000px;
 }
 
 #p2{
-  position: absolute; top: 1400px; left: 225px;
+  position: absolute; top: 1260px; left: 225px;
+  height: 200px; width: 1000px;
+
 }
 
 
 #Twitch{ 
-   position: absolute; left: 200px; top: 1500px;
+   position: absolute; left: 200px; top: 1400px;
    border-radius: 30px;
 }
 
@@ -77,10 +79,15 @@ position: absolute; top: 1150px; left: 650px;
 }
 
 #school{
-   position: absolute; left: 400px; top: 1800px;
+   position: absolute; left: 560px; top: 2530px;
    border-radius: 30px;
 }
 
 #titre3{
-position:absolute; top: 2000px;
+position:absolute; top: 2250px; left: 530px;
+}
+
+#p3{
+  position: absolute; top: 2360px; left: 225px;
+  height: 200px; width: 1000px;
 }
