@@ -39,3 +39,9 @@ nav {
   h2{
     color: white;
   }
+
+  input[type="text"]::placeholder {
+    color: #e16868;
+  }
+
+  
