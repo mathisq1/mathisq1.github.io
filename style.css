@@ -8,7 +8,6 @@
 }
 
 body {
-  /* background: linear-gradient(to bottom right, rgb(20, 47, 105), rgb(112, 140, 201)); */
   background-color: #2d5598;
 }
 
@@ -71,5 +70,33 @@ ul {
 
 #info{
   height: 400px; width: 900px;
+}
+
+@media screen and (max-width:450px) {
+
+  .menu{
+    display: block;
+  }
+
+  p {
+    font-family: komet;
+    font-weight: normal;
+    font-size: 20pt;
+    text-align: left;
+    color: white;
+    margin: 40pt;
+  }
+  h1 {
+    color: white;
+    text-align: left;
+    font-size:36pt;
+    margin: 20px;
+    font-family: komet ;
+  }
+
+  #info{
+    height: 400px; width:370px;
+    position: absolute; left: -25px; top: 200px;
+  }
 
 }
