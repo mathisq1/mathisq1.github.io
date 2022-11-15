@@ -138,7 +138,13 @@ body {
     width: 900px;
     height: 900px;
     border-radius: 19px;
-    position: absolute; 
+    position: absolute; top: 20px;
+  }
+  #jac{
+    width: 900px;
+    height: 900px;
+    border-radius: 21px;
+    position: absolute; left: 750px; top: 135px;
   }
   
 }
