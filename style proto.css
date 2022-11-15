@@ -63,31 +63,31 @@ position: absolute; left: 480px;
 }
 
 #p2{
-  position: absolute; top: 1260px; left: 225px;
+  position: absolute; top: 1200px; left: 225px;
   height: 200px; width: 1000px;
 
 }
 
 
 #Twitch{ 
-   position: absolute; left: 200px; top: 1400px;
+   position: absolute; left: 200px; top: 1380px;
    border-radius: 30px;
 }
 
 #titre2{
-position: absolute; top: 1150px; left: 650px;
+position: absolute; top: 1100px; left: 650px;
 }
 
 #school{
-   position: absolute; left: 560px; top: 2530px;
+   position: absolute; left: 560px; top: 2400px;
    border-radius: 30px;
 }
 
 #titre3{
-position:absolute; top: 2250px; left: 530px;
+position:absolute; top: 2120px; left: 530px;
 }
 
 #p3{
-  position: absolute; top: 2360px; left: 225px;
+  position: absolute; top: 2230px; left: 225px;
   height: 200px; width: 1000px;
 }
