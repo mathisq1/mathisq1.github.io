@@ -17,8 +17,6 @@ body {
 }
 
 
-
-
 h1 {
   color: white;
   text-align: left;
@@ -69,4 +67,9 @@ ul {
   width: 8rem;
   height: 8rem;
   top: -10rem;
+}
+
+#info{
+  height: 400px; width: 900px;
+
 }
