@@ -72,7 +72,7 @@ ul {
   height: 400px; width: 900px;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (min-width:320px) {
 
   .menu{
     display: block;
