@@ -132,7 +132,7 @@ body {
 }
 
 
-@media screen and (max-width:450px) {
+@media screen and (min-width:450px) {
 
   #gasly {
     width: 900px;
@@ -146,5 +146,6 @@ body {
     border-radius: 21px;
     position: absolute; left: 1050px; top: 135px;
   }
+  
   
 }
