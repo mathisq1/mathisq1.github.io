@@ -138,32 +138,64 @@ body {
 @media screen and (min-width:320px) {
 
   #gasly {
-    width: 500px;
-    height: 1000px;
+    width: 650px;
+    height: 1200px;
     border-radius: 19px;
-    position: absolute; top: 200px; left: 20px;
+    position: absolute; top: 200px; left: 50px;
   }
 
   #Yuki{
-    width: 500px;
-    height: 1000px;
+    width: 650px;
+    height: 1200px;
     border-radius: 21px;
-    position: absolute; left: 930px; top: 200px;
+    position: absolute; left: 750px; top: 200px;
   }
   
   #jac{
-    width: 500px;
-    height: 500px;
+    width: 650px;
+    height: 650px;
     border-radius: 21px;
-    position: absolute; left: 20px; top: 1250px;
+    position: absolute; left: 50px; top: 2100px;
   }
 
   #Volant{
-    width: 500px;
-    height: 500px;
+    width: 650px;
+    height: 650px;
     border-radius: 21px;
-    position: absolute; left: 530px; top: 1250px;
+    position: absolute; left: 770px; top: 2100px;
   }
+
+  #tusnoda{
+    width: 1000px;
+    height: 630px;
+    border-radius: 24px;
+    position: absolute; left: 255px; top: 1440px;
+  }
+
+  #lando{
+    width: 710px;
+    height: 710px;
+    position: absolute; top: 3550px; left: 20px;
+  }
+
+  #Casque{
+    width: 740px;
+    height: 740px;
+    position : absolute; top: 3530px; left: 730px;
+  }
+
+  #esteban{
+    width: 685px;
+    height: 685px; 
+    position: absolute; top: 2850px; left: 770px;
+  }
+
+  #piere{
+    width: 700px;
+    height: 700px;
+    position: absolute; top: 2850px; left: 20px;
+  }
+  
 
   nav a { 
     font-family: Komet;
@@ -174,30 +206,61 @@ body {
   }
 
   #personne{
-    width: 350px;
-    height: 690px;
+    width: 0px;
+    height: 0px;
     border-radius: 23px;
-    position: absolute; top: 3050px; left: 10px;
+    position: absolute; top: 4350px; left: 10px;
   }
 
   #gaslyp{
-    width: 350px;
-    height: 690px ;
+    width: 450px;
+    height: 930px ;
     border-radius: 25px;
-    position: absolute; top: 3250px; left: 375px;
+    position: absolute; top: 4330px; left: 30px;
+  }
+
+  #couchée{
+    width: 450px;
+    height: 930px;
+    border-radius: 25px;
+    position: absolute; top: 4330px; left: 520px;
   }
   
+#alphatauri{
+  width: 450px;
+  height: 930px;
+  border-radius: 34px;
+  position: absolute; left: 1000px; top: 4330px;
+  
+}
+
+#safety {
+  width: 911px;
+  height: 500px;
+  border-radius: 30px;
+  position: absolute; top: 5320px; left: 280px;
+}
+
 }
 
 
 
 
 @media screen and (min-width:1440px) {
+
+  nav a { 
+    font-family: Komet;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+  }
+  
   #gasly {
     width: 360px;
     height: 690px;
     border-radius: 19px;
-    position: absolute; top: 130px;
+    position: absolute; top: 130px; left: 20px;
   }
   
   
