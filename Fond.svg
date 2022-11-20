@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="760" viewBox="0 0 360 760">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Samsung_Galaxy_S10_1);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #38549f;
+      }
+
+      .cls-2 {
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        stroke-width: 4px;
+      }
+
+      .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        stroke-width: 5px;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        fill: #021885;
+      }
+    </style>
+    <clipPath id="clip-Samsung_Galaxy_S10_1">
+      <rect width="360" height="760"/>
+    </clipPath>
+  </defs>
+  <g id="Samsung_Galaxy_S10_1" data-name="Samsung Galaxy S10 – 1" class="cls-1">
+    <rect class="cls-8" width="360" height="760"/>
+    <g id="Groupe_7" data-name="Groupe 7">
+      <g id="Rectangle_16" data-name="Rectangle 16" class="cls-2" transform="matrix(0.998, 0.07, -0.07, 0.998, 6.723, 131.124)">
+        <rect class="cls-6" width="400.744" height="500.158" rx="38"/>
+        <rect class="cls-7" x="1.5" y="1.5" width="397.744" height="497.158" rx="36.5"/>
+      </g>
+      <g id="Rectangle_17" data-name="Rectangle 17" class="cls-3" transform="matrix(0.995, -0.105, 0.105, 0.995, -81.605, 102.677)">
+        <rect class="cls-6" width="460.067" height="610.178" rx="38"/>
+        <rect class="cls-7" x="2" y="2" width="456.067" height="606.178" rx="36"/>
+      </g>
+      <g id="Rectangle_18" data-name="Rectangle 18" class="cls-4" transform="translate(16.21 183.975) rotate(-3)">
+        <rect class="cls-6" width="321.379" height="436.624" rx="38"/>
+        <rect class="cls-7" x="1" y="1" width="319.379" height="434.624" rx="37"/>
+      </g>
+      <g id="Rectangle_19" data-name="Rectangle 19" class="cls-5" transform="translate(-28.958 6.321) rotate(3)">
+        <rect class="cls-6" width="522.794" height="727.315" rx="38"/>
+        <rect class="cls-7" x="2.5" y="2.5" width="517.794" height="722.315" rx="35.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
