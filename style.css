@@ -20,10 +20,6 @@
 
 }
 
-.menu :hover{
-  color: gray;
-}
-
 @media screen and (min-width:320px) {
 
   body {
@@ -102,5 +98,6 @@
     position:absolute; top: 645px; left: 135px;
   }
  
+
 }
 
