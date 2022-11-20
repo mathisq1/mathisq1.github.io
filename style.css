@@ -22,10 +22,17 @@
 
 @media screen and (min-width:320px) {
 
+  #menu{
+    position: absolute; top: 20px;
+    height: 40px; width: 40px;
+
+  }
+
   body {
     background-image: url(Fond.png);
     background-repeat: no-repeat;
     background-size: 110%;
+    background-position-x: -20px;
     
   }
 
@@ -36,6 +43,7 @@
   line-height: 60px;
   text-align: center;
   color: #fff;
+  position: absolute; left: 115px;
 
   }
   
@@ -52,33 +60,33 @@
   #qui{
     text-decoration: none;
     color: #fff;
-    position: absolute; left: 85px; top: 190px;
+    position: absolute; left: 65px; top: 190px;
   }
 
   #dessin{
     text-decoration: none;
     color: #fff;
-    position: absolute; top: 270px; left: 140px;
+    position: absolute; top: 280px; left: 125px;
   }
 
   #contact{
     text-decoration: none;
     color: #fff;
-    position: absolute; top: 470px; left: 90px;
+    position: absolute; top: 455px; left: 60px;
 
   }
   
   #projets {
     text-decoration: none;
     color: #fff;
-    position: absolute; top: 370px; left: 145px;
+    position: absolute; top: 370px; left: 135px;
 
   }
 
   #CV{
     text-decoration: none;
     color: #fff;
-    position: absolute; top: 560px; right: 100px;
+    position: absolute; top: 550px; right: 100px;
   }
 
 
@@ -98,6 +106,10 @@
     position:absolute; top: 645px; left: 135px;
   }
  
-
+  #Fond{
+    height: 20px; width: 20px;
+    background-color: transparent;
+    position: absolute; top: 730px;
+  }
 }
 
