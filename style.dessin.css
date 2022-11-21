@@ -23,8 +23,8 @@
 }
 
 #menu{
-  position: absolute; top: 40px;
-  height: 70px; width: 70px;
+  position: absolute; top: 40px; left: 10px;
+  height: 100px; width: 100px;
 
 }
 
