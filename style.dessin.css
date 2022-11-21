@@ -110,8 +110,8 @@
   }
 
   #couchée{
-    width: 450px;
-    height: 930px;
+    width: 0px;
+    height: 0px;
     border-radius: 25px;
     position: absolute; top: 4330px; left: 520px;
   }
@@ -197,10 +197,10 @@
   }
   
   #couchée{
-    width: 1px;
-    height: 1px;
+    width: 450px;
+    height: 930px;
     border-radius: 25px;
-    position: absolute; top: 250px;
+    position: absolute; top: 4330px; left: 520px;
   }
   
   #Yuki{
