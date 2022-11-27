@@ -8,7 +8,7 @@
 }
 
 body {
-  /* background:linear-gradient(to bottom right, rgb(20, 47, 105) , rgb(112, 140, 201) ); */
+  
   background-color: #2d5598; 
 }
 
@@ -24,6 +24,7 @@ nav {
     font-size: 40px;
     color: white;
     text-decoration: none;
+    visibility: hidden;
   }
 
   .menu a:hover {
@@ -40,8 +41,9 @@ nav {
     color: white;
   }
 
-  input[type="text"]::placeholder {
-    color: #e16868;
-  }
 
+  @media screen and (min-width: 320px ) {
   
+    
+
+  }
