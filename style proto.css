@@ -7,7 +7,7 @@
   font-stretch: normal;
 }
 
-nav { 
+/* nav { 
   padding: 25px ;
   text-align: center;
   margin: 10px;
@@ -90,10 +90,141 @@ position:absolute; top: 2120px; left: 530px;
 #p3{
   position: absolute; top: 2230px; left: 225px;
   height: 200px; width: 1000px;
+} */
+
+@media screen and (min-width: 320px ) {
+
+  body {
+    background-image: url(Fond.png);
+    background-repeat: 1;
+    background-size: 170%;
+    background-position-x: -20px ;
+        
+      }  
+
+      #menu{
+        position: absolute; top: 40px; left: 10px;
+        height: 100px; width: 100px;
+      
+      }
+      
+      #icon{
+        height: 130px;
+        width: 130px;
+        position: absolute; top: 2510px; left: 200px;
+    
+      }
+    
+      #insta{
+        font-family: Komet;
+        font-weight: bold;
+        font-size: 120px;
+        text-align: left;
+        color: #fff;
+        position:absolute; top: 2300px; left: 430px;
+      }
+      
+      #annim{
+        position: absolute; top: 1000px; left: 80px; 
+      
+      }
+
+      #Projets{
+        font-family: Komet;
+        font-weight: normal;
+        font-size: 150px;
+        color: #fff;
+        position: absolute; left: 100px; top: 200px;
+        height: 200px; width: 300px;
+
+      }
+
+      #texte{
+        font-family: Komet;
+        font-weight: 500;
+        font-size: 120px;
+        text-align: center;
+        color: #fff;
+
+        position: absolute; left: 300px; top: 600px; 
+        height: 500px; width: 1000px;
+
+      }
+
+
+  nav { 
+  padding: 25px ;
+  text-align: center;
+  margin: 10px;
+  visibility: hidden;
 }
 
-@media screen and (max-width:450px ) {
+.titre{
+   color: white;
+   text-align: center;
+   font-size: 4rem;
+   font-family: komet;
+   visibility: hidden;
+}
 
-  #twitch{ height: 0px; width: 0px; }
-  
+#PetV{
+   position: absolute; left: 195px; top: 470px;
+   border-radius: 30px;
+   visibility: hidden;
+}
+
+#titre1{
+position: absolute; left: 480px;
+visibility: hidden;
+}
+
+.textes{
+  text-align: center;
+  color: white;
+  font-family: komet;
+  font-size: 25px;
+  visibility: hidden;
+}
+
+#p1{
+  position: absolute; top: 60px;left: 225px;
+  height: 200px; width: 1000px;
+  visibility: hidden;
+}
+
+#p2{
+  position: absolute; top: 200px; left: 225px;
+  height: 200px; width: 1000px;
+  visibility: hidden;
+
+}
+
+
+#Twitch{ 
+   position: absolute; left: 200px; top: 380px;
+   border-radius: 30px;
+   visibility: hidden;
+}
+
+#titre2{
+position: absolute; top: 100px; left: 650px;
+visibility: hidden;
+}
+
+#school{
+   position: absolute; left: 60px; top: 200px;
+   border-radius: 30px;
+   visibility: hidden;
+}
+
+#titre3{
+position:absolute; top: 120px; left: 530px;
+visibility: hidden;
+}
+
+#p3{
+  position: absolute; top: 230px; left: 225px;
+  height: 200px; width: 1000px;
+  visibility: hidden;
+}
 }
