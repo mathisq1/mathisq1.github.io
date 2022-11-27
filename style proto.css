@@ -103,51 +103,51 @@ position:absolute; top: 2120px; left: 530px;
       }  
 
       #menu{
-        position: absolute; top: 40px; left: 10px;
-        height: 100px; width: 100px;
+        position: absolute; top: 40px; left: 20px;
+        height: 180px; width: 180px;
       
       }
       
       #icon{
         height: 130px;
         width: 130px;
-        position: absolute; top: 2510px; left: 200px;
+        position: absolute; top: 2540px; left: 360px;
     
       }
     
       #insta{
         font-family: Komet;
         font-weight: bold;
-        font-size: 120px;
+        font-size: 100px;
         text-align: left;
         color: #fff;
-        position:absolute; top: 2300px; left: 430px;
+        position:absolute; top: 2450px; left: 550px;
       }
       
       #annim{
-        position: absolute; top: 1000px; left: 80px; 
+        position: absolute; top: 1050px; left: 80px; 
       
       }
 
       #Projets{
         font-family: Komet;
-        font-weight: normal;
-        font-size: 150px;
+        font-weight: bold;
+        font-size: 210px;
         color: #fff;
-        position: absolute; left: 100px; top: 200px;
-        height: 200px; width: 300px;
+        position: absolute; left:220px; top: 160px;
+        height: 200px; width: 1500px;
 
       }
 
       #texte{
         font-family: Komet;
         font-weight: 500;
-        font-size: 120px;
+        font-size: 160px;
         text-align: center;
         color: #fff;
 
-        position: absolute; left: 300px; top: 600px; 
-        height: 500px; width: 1000px;
+        position: absolute; left: 240px; top: 530px; 
+        height: 500px; width: 1100px;
 
       }
 
