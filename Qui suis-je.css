@@ -79,3 +79,55 @@ body {
   }
 
 }
+
+@media screen and (max-width:360px) {
+
+  #Qui{
+    font-family: Komet;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: left;
+    color: #fff;
+    position: absolute; left: 50px; top: 40px;
+
+  }
+
+  .Mathis{
+    font-family: Komet;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+  color: #fff;
+  position: absolute; left: 35px; top: 140px;
+
+  }
+
+  #texte{
+    font-family: Komet;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: left;
+    color: #fff;
+
+    position: absolute; top: 210px; left:50px;
+    height: 250px; width: 280px;
+  }
+
+  #icon{
+    height: 35px;
+    width: 35px;
+    position: absolute; top: 565px; left: 50px;
+
+  }
+
+  #insta{
+    font-family: Komet;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    color: #fff;
+    position:absolute; top: 545px; left: 100px;
+  }
+
+}

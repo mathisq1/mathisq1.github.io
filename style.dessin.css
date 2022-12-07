@@ -144,6 +144,128 @@
 }
 
 
+@media screen and (max-width:360px) {
+
+  #texte{
+    font-family: Komet;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: left;
+    color: #fff;
+    position: absolute; left: 55px; top: 25px;
+  
+  }
+
+  #gasly {
+    width: 256px;
+    height: 465px;
+    border-radius: 19px;
+    
+    position: absolute; top: 720px; left: 65px; 
+  }
+
+  #Yuki{
+    width: 246px;
+    height: 438px;
+    border-radius: 21px;
+    position: absolute; top: 1950px; left: 65px;
+  }
+  
+  #jac{
+    width: 175px;
+    height: 175px;
+    border-radius: 20px;
+    position: absolute; top: 145px; left: 10px;
+  }
+
+  #Volant{
+    width: 165px;
+    height: 165px;
+    border-radius: 19px;
+    border-radius: 35px;
+    position: absolute; top: 340px; left: 185px;
+  }
+
+  #tusnoda{
+    width: 250px;
+    height: 160px;
+    border-radius: 24px;    
+    position: absolute; top: 520px; left: 65px;
+  }
+
+  #lando{
+    width: 170px;
+    height: 170x;
+    position: absolute; top: 1740px; left: 5px;
+  }
+
+  #Casque{
+    width: 180px;
+  height: 180px;
+    position : absolute; top: 1730px; left: 175px;
+  }
+
+  #esteban{
+    width: 155px;
+    height: 155px; 
+    position: absolute; top: 155px; left: 200px;
+  }
+
+  #piere{
+    width: 155px;
+    height: 155px;
+    position: absolute; top: 345px; left: 10px;
+  }
+  
+  #personne{
+    width: 0px;
+    height: 0px;
+    border-radius: 23px;
+    position: absolute; top: 4350px; 
+    visibility: hidden;
+  }
+
+  #gaslyp{
+    width: 256px;
+    height: 495px;
+    border-radius: 19px;
+    position: absolute; top: 1220px; left: 65px;
+  }
+
+  #couchée{
+    width: 0px;
+    height: 0px;
+    border-radius: 25px;
+    position: absolute; top: 4330px; left: 520px;
+    visibility: hidden;
+  }
+  
+#alphatauri{
+  width: 246px;
+  height: 440px;
+  border-radius: 34px;
+
+  position: absolute; top: 2430px; left: 65px;
+  
+}
+
+#safety {
+  width: 322px;
+  height: 181px;
+  border-radius: 30px;
+  position: absolute; top: 2920px; left: 20px;
+}
+
+#Fond{
+  height: 20px; width: 20px;
+  background-color: transparent;
+  position: absolute; top: 3150px;
+}
+
+
+}
+
+
 
 
 
