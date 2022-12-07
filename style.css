@@ -60,6 +60,7 @@
   #qui{
     text-decoration: none;
     color: #fff;
+    display: flex;
     position: absolute; left: 65px; top: 190px;
   }
 

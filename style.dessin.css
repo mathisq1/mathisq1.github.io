@@ -14,19 +14,18 @@
 #texte{
   font-family: Komet;
   font-weight: normal;
-  font-size: 130px;
+  font-size: 55px;
   text-align: left;
   color: #fff;
-
-  position: absolute; left: 140px; top: 10px;
+  position: absolute; left: 50px; top: 40px;
 
 }
 
 #menu{
-  position: absolute; top: 40px; left: 10px;
-  height: 100px; width: 100px;
-
-}
+  position: absolute; top: 20px;
+  height: 40px; width: 40px;
+  
+    }
 
   body {
     background-image: url(Fond.png);
@@ -51,9 +50,9 @@
   }
   
   #jac{
-    width: 500px;
-    height: 500px;
-    border-radius: 35px;
+    width: 184px;
+    height: 184px;
+    border-radius: 20px;
     position: absolute; top: 290px; left: 30px;
   }
 
@@ -84,15 +83,15 @@
   }
 
   #esteban{
-    width: 430px;
-    height: 430px; 
-    position: absolute; top: 330px; left: 550px;
+    width: 162px;
+    height: 162px; 
+    position: absolute; top: 330px; left: 250px;
   }
 
   #piere{
-    width: 410px;
-    height: 410px;
-    position: absolute; top: 855px; left: 15px;
+    width: 151px;
+    height: 151px;
+    position: absolute; top: 655px; left: 15px;
   }
   
   #personne{
