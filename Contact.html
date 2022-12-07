@@ -19,29 +19,25 @@
         <link rel="icon" type="image/png" sizes="16x16" href="Image/Photo pp.png">
     </head> 
     <body>
-            <nav class="menu">
-                <ul>
-                <a href="index.html">Accueil</a> 
-                <a href="Dessin.html">Dessin</a>
-                <a href="Prototype.html">Prototype</a>
-                <a href="Contact.html">Contact</a>
-                </ul>
-            </nav>
+    <a href="index.html"><img id="menu" src="/Icons/icons8-menu-arrondi-100.png" alt="menu arrondi"></a>
 <main>
-  <h2>N'hésitez pas à me contacter</h2>
+  <h1 id="contact">Me Contacter</h1>
+  <h2 id="Info">N'hésitez pas à me contacter pour toutes informations</h2>
 
-  <address>
-  <div> <a href="mailto:quernemathis@laposte.net">quernemathis@laposte.net</a><br></div>
-</address>
+<form action="fom.php" method="post">
 
-<form action="fom.php">
-
-  <input type="text" placeholder="Nom">
-  <input type="email" placeholder="Adresse e-mail">
-  <input type="text" placeholder="Votre Message">
-  <input type="submit">
+  <input class="simple" id="Nom" type="text" name="Nom" placeholder="Nom">
+  <input class="simple" id="email" type="email" name="email" placeholder="Adresse e-mail">
+  <input class="text" type="text" name="message" placeholder="Votre Message">
+  <input id="send" type="submit">
 
 </form>
+
+<div>
+  <a href="https://www.instagram.com/mathis_querne" target="_blank">
+  <img id="icon" src="Icons/icons8-instagram-500.png" alt="Icons instagram">
+  <h2 id="insta">@mathis_querne</h2></a>
+</div>
 
 
 </main>
