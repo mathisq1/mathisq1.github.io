@@ -17,7 +17,7 @@
   font-size: 55px;
   text-align: left;
   color: #fff;
-  position: absolute; left: 50px; top: 40px;
+  position: absolute; left: 55px; top: 25px;
 
 }
 
@@ -36,62 +36,65 @@
   }
 
   #gasly {
-    width: 650px;
-    height: 1200px;
     border-radius: 30px;
-    position: absolute; top: 1750px; left: 180px; 
+    width: 256px;
+    height: 465px;
+    border-radius: 19px;
+    
+    position: absolute; top: 750px; left: 85px; 
   }
 
   #Yuki{
-    width: 650px;
-    height: 1200px;
-    border-radius: 35px;
-    position: absolute; top: 5000px; left: 190px;
+    width: 246px;
+    height: 438px;
+    border-radius: 21px;
+    position: absolute; top: 2000px; left: 85px;
   }
   
   #jac{
     width: 184px;
     height: 184px;
     border-radius: 20px;
-    position: absolute; top: 290px; left: 30px;
+    position: absolute; top: 145px; left: 20px;
   }
 
   #Volant{
-    width: 500px;
-    height: 500px;
+    width: 184px;
+    height: 184px;
+    border-radius: 21px;
     border-radius: 35px;
-    position: absolute; left: 450px; top: 810px;
+    position: absolute; top: 340px; left: 210px;
   }
 
   #tusnoda{
-    width: 550px;
-    height: 350px;
-    border-radius: 24px;
-    position: absolute; top: 1340px; left: 230px;
+    width: 260px;
+    height: 170px;
+    border-radius: 24px;    
+    position: absolute; top: 540px; left: 80px;
   }
 
   #lando{
-    width: 500px;
-    height: 500px;
-    position: absolute; top: 4460px; left: 10px;
+    width: 190px;
+    height: 190x;
+    position: absolute; top: 1780px; left: 10px;
   }
 
   #Casque{
-    width: 520px;
-    height: 520px;
-    position : absolute; top: 4430px; left: 480px;
+    width: 210px;
+  height: 210px;
+    position : absolute; top: 1760px; left: 195px;
   }
 
   #esteban{
-    width: 162px;
-    height: 162px; 
-    position: absolute; top: 330px; left: 250px;
+    width: 165px;
+    height: 165px; 
+    position: absolute; top: 155px; left: 240px;
   }
 
   #piere{
-    width: 151px;
-    height: 151px;
-    position: absolute; top: 655px; left: 15px;
+    width: 165px;
+    height: 165px;
+    position: absolute; top: 345px; left: 30px;
   }
   
   #personne{
@@ -99,13 +102,14 @@
     height: 0px;
     border-radius: 23px;
     position: absolute; top: 4350px; 
+    visibility: hidden;
   }
 
   #gaslyp{
-    width: 650px;
-    height: 1320px ;
-    border-radius: 25px;
-    position: absolute; top: 3050px; left: 170px;
+    width: 256px;
+    height: 495px;
+    border-radius: 19px;
+    position: absolute; top: 1250px; left: 85px;
   }
 
   #couchée{
@@ -113,27 +117,29 @@
     height: 0px;
     border-radius: 25px;
     position: absolute; top: 4330px; left: 520px;
+    visibility: hidden;
   }
   
 #alphatauri{
-  width: 650px;
-  height: 1130px;
+  width: 246px;
+  height: 440px;
   border-radius: 34px;
-  position: absolute; top: 6300px; left: 190px;
+
+  position: absolute; top: 2480px; left: 85px;
   
 }
 
 #safety {
-  width: 811px;
-  height: 450px;
+  width: 322px;
+  height: 181px;
   border-radius: 30px;
-  position: absolute; top: 7520px; left: 100px;
+  position: absolute; top: 2970px; left: 55px;
 }
 
 #Fond{
   height: 20px; width: 20px;
   background-color: transparent;
-  position: absolute; top: 8000px;
+  position: absolute; top: 3150px;
 }
 
 }
