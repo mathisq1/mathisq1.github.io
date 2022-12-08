@@ -7,18 +7,6 @@
   font-stretch: normal;
 }
 
-@media screen and (min-width:1440px) {
-  .Mathis{
-    font-family: Komet;
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 60px;
-    text-align: center;
-    color: #fff;
-  
-  }
-
-}
 
 @media screen and (min-width:320px) {
 
@@ -189,3 +177,25 @@
 
 
 }
+
+@media screen and (min-width:1440px) {
+
+  body {
+    background-image: url(Fondpc.png);
+    background-repeat: repeat-y;
+    background-size: 110%;
+    background-position-x: -20px;
+    
+  }
+
+  #menu{
+    position: absolute; top: 20px;
+    height: 60px; width: 60px;
+    
+    }
+  
+  #qui{
+    font-size: 200px;
+  }
+
+    }
