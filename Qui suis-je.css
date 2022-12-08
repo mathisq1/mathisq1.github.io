@@ -131,3 +131,73 @@ body {
   }
 
 }
+
+@media screen and (min-width:1440px) {
+
+  body {
+    background-image: url(Fondpc.png);
+    background-repeat: repeat-y;
+    background-size: 110%;
+    background-position-x: -20px;
+    
+  }
+
+  #menu{
+    position: absolute; top: 20px;
+    height: 60px; width: 60px;
+    
+    }
+
+    #Qui{
+      font-family: Komet;
+      font-weight: 500;
+      font-size: 60px;
+      text-align: left;
+      color: #fff;
+      position: absolute; left: 540px; top: 0px;
+    }
+
+    .Mathis{
+      font-family: Komet;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 55px;
+    text-align: center;
+    color: #fff;
+    position: absolute; left: 335px; top: 140px;
+  
+    }
+  
+    #texte{
+      font-family: Komet;
+      font-weight: normal;
+      font-size: 45px;
+      text-align: left;
+      color: #fff;
+  
+      position: absolute; top: 260px; left: 340px;
+      height: 250px; width: 690px;
+    }
+
+
+
+
+
+    #icon{
+      height: 40px;
+      width: 40px;
+      position: absolute; top: 745px; left: 570px;
+  
+    }
+  
+    #insta{
+      font-family: Komet;
+      font-weight: bold;
+      font-size: 35px;
+      text-align: left;
+      color: #fff;
+      position:absolute; top: 710px; left: 620px;
+    }
+    
+
+  }

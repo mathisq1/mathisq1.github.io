@@ -193,9 +193,75 @@
     height: 60px; width: 60px;
     
     }
-  
-  #qui{
-    font-size: 200px;
+
+  .Mathis{
+    font-family: Komet;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 70px;
+  text-align: center;
+  color: #fff;
+  position: absolute; left: 590px; top: -40px;
+
   }
+  
+    .menu{
+      font-family: Komet;
+      font-weight: normal;
+      font-size: 70px;
+      text-align: left;
+      color: #fff;
+      text-decoration: none;
+  
+    }
+  
+    #qui{
+      text-decoration: none;
+      color: #fff;
+      display: flex;
+      position: absolute; left: 530px; top: 200px;
+    }
+  
+    #dessin{
+      text-decoration: none;
+      color: #fff;
+      position: absolute; top: 305px; left: 600px;
+    }
+  
+    #contact{
+      text-decoration: none;
+      color: #fff;
+      position: absolute; top: 510px; left: 510px;
+  
+    }
+    
+    #projets {
+      text-decoration: none;
+      color: #fff;
+      position: absolute; top: 410px; left: 605px;
+  
+    }
+  
+    #CV{
+      text-decoration: none;
+      color: #fff;
+      position: absolute; top: 620px; left: 590px;
+    }
+  
+    #icon{
+      height: 40px;
+      width: 40px;
+      position: absolute; top: 745px; left: 570px;
+  
+    }
+  
+    #insta{
+      font-family: Komet;
+      font-weight: bold;
+      font-size: 35px;
+      text-align: left;
+      color: #fff;
+      position:absolute; top: 710px; left: 620px;
+    }
 
     }
