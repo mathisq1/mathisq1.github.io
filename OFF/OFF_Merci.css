@@ -1,0 +1,132 @@
+/* Definition des variable */
+
+:root{
+    --couleurtexte: #ffff ;
+    --couleurprimaire: #151d53 ;
+    --couleursecondaire: #c61120;
+}
+
+/* Importation d'une police */
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat\Monsterat.ttf);
+  }
+
+@font-face {
+    font-family: Trace of Rough;
+    src: url(fonts/Trace_of_Rough\Trace_of_Rough.ttf);
+  }
+
+/* CSS pour le fond */
+
+body{
+    background-color:var(--couleurprimaire);
+    animation: debut 700ms ease-out 2ms;
+}
+
+/* CSS pour la page Nav  */
+
+.Logo{
+    width: 140px;
+    height: 100px;
+
+}
+
+a{
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 35px;
+    text-decoration: none;
+    color: var(--couleurtexte);
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+
+/* Css du texte et de la mise en page */
+
+
+h1{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--couleurtexte);
+    display: flex;
+    justify-content: center;
+}
+
+.Info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;;
+    color: var(--couleurtexte);
+    width: 70%;
+    margin: auto;
+    
+}
+
+#annimation{
+    height: 500px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+/* Css des animations */
+
+.button:hover{
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.60);
+
+}
+
+@keyframes debut{
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+}
+
+
+/* CSS Optimisation taille d'écran*/
+
+@media screen and (max-width: 880px) {
+    
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    h1{
+        font-size: 30px;
+    }
+
+    .Info{
+        font-size: 25px;
+        line-height: 25px;
+        width: 90%;
+    }
+
+}
