@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+
+:root{
+  --firstcolor : #FDFDFD;
+  --secondcolor : #9461D3;
+  --background : #1A1A1E;
+}
+
+body{
+    background-color: var(--background);
+    padding-top: 2rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+nav a{
+    color: var(--firstcolor);
+    text-decoration: none;
+    font-family: MuseoModerno;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.accueil{
+
+    display: flex;
+
+}
+
+.accueil img {
+    width: 20rem;
+}
