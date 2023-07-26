@@ -23,6 +23,7 @@ body h2 {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  padding-left: 8rem;
 }
 
 /* Navigation */
@@ -138,8 +139,8 @@ button{
 }
 
 button:hover{
-  background-color: #9461d3a7;
-  color:#cacacafd;
+  background-color: #5a1fa2;
+  color:#8d8d8dfd;
 }
 
 /* Texte défilant */
@@ -236,3 +237,45 @@ button:hover{
     justify-content: center;
 
   }
+
+  .monprojets h5{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    color: var(--firstcolor);
+    font-family: MuseoModerno;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 10px;
+    padding-top: 20px;    
+  } 
+
+  .monprojets h6{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    color: var(--secondcolor);  
+    font-family: Sansita Swashed;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  .monprojets{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+    line-height: 50px
+  }
+
+  .mesprojets{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  
