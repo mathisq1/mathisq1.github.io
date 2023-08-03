@@ -125,8 +125,8 @@ button:hover{
 
 #nom-projets-Photoshop{
     position: absolute;
-    left: -3120px;
-    bottom: -2400px;
+    left: -1280px;
+    bottom: -580px;
 }
 
 
@@ -142,4 +142,18 @@ button:hover{
     gap: 0px;
     align-items: center;
     margin-top: 70px;
+}
+
+
+/* CSS creation */
+
+.creation img{
+    border-bottom: 10px solid var(--secondaire, #9461D3);
+    border-left: 10px solid var(--secondaire, #9461D3);
+}
+
+.creation{
+    display: block;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
