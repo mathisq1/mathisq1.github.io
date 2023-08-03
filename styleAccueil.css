@@ -9,6 +9,9 @@
   --firstcolor : #FDFDFD;
   --secondcolor : #9461D3;
   --background : #1A1A1E;
+  --Firstpolice: MuseoModerno;
+  --Secondpolice: Sansita Swashed;
+  --paragraphepolice: Work Sans;
 }
 
 body{
@@ -18,7 +21,7 @@ body{
 
 body h2 {
   color: var(--firstcolor);
-  font-family: MuseoModerno;
+  font-family: var(--Firstpolice);
   font-size: 3.5em;
   font-style: normal;
   font-weight: 600;
@@ -31,7 +34,7 @@ body h2 {
 nav a{
     color: var(--firstcolor);
     text-decoration: none;
-    font-family: MuseoModerno;
+    font-family: var(--Firstpolice);
     font-weight: 700;
     font-size: 30px;
 }
@@ -61,8 +64,9 @@ nav{
 
 .accueil{
 
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
     gap: 11.875rem;
     padding-top: 3rem;
     padding-bottom: 2rem;
@@ -84,7 +88,7 @@ nav{
 
 .nom-prenom h1 {
     color: var(--firstcolor,);
-    font-family: MuseoModerno;
+    font-family: var(--Firstpolice);
     font-size: 9em;
     line-height: 60px;
     font-style: normal;
@@ -94,7 +98,7 @@ nav{
 
 .nom-prenom h2{
     color: var(--secondcolor);
-    font-family: Sansita Swashed;
+    font-family: var(--Secondpolice);
     font-size: 6.5rem;
     font-style: normal;
     font-weight: 700;
@@ -104,7 +108,7 @@ nav{
 .accueil p{
     color: var(--firstcolor);
     text-align: justify;
-    font-family: Work Sans;
+    font-family: var(--paragraphepolice);
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
@@ -132,7 +136,7 @@ button{
     padding-right: 1.3rem;
     color: var(--primaire, #FDFDFD);
     text-align: justify;
-    font-family: MuseoModerno;
+    font-family: var(--Firstpolice);
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -179,7 +183,7 @@ button:hover{
   .scroll h4 {
     color: var(--firstcolor);
     text-align: justify;
-    font-family: MuseoModerno;
+    font-family: var(--Firstpolice);
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
@@ -198,7 +202,7 @@ button:hover{
   .scrollinverse h4 {
     color: var(--firstcolor);
     text-align: justify;
-    font-family: MuseoModerno;
+    font-family: var(--Firstpolice);
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
@@ -243,7 +247,7 @@ button:hover{
     text-orientation: mixed;
     transform: rotate(180deg);
     color: var(--firstcolor);
-    font-family: MuseoModerno;
+    font-family: var(--Firstpolice);
     font-size: 2.7rem;
     font-style: normal;
     font-weight: 600;
@@ -257,7 +261,7 @@ button:hover{
     text-orientation: mixed;
     transform: rotate(180deg);
     color: var(--secondcolor);  
-    font-family: Sansita Swashed;
+    font-family:  var(--Secondpolice);
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 600;
@@ -277,8 +281,96 @@ button:hover{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 90px;
     
   }
+ 
+  .mesprojets>*{
+    flex: 0 0 30%;
+  }  
 
-  
+/* Mes Outils */
+
+.Titre-outils h5{
+  color: var(--firstcolor);
+  font-family:  var(--Secondpolice);
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+
+.Titre-outils object{
+  width: 2em;
+  height: 2rem;
+}
+
+.Titre-outils{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+
+.cat-outils{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.tous-outils{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Texte-outils{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cat-outils a {
+  text-decoration: none;
+}
+.Un-outils{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.Un-outils h6{
+  color: var(--firstcolor);
+  font-family: var(--paragraphepolice);
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+
+.Un-outils p {
+  color: rgba(253, 253, 253, 0.60);
+  font-family: var(--paragraphepolice);
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  width: 250px;
+}
+
+.Un-outils img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.Cat-tous-outils{
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  gap: 20px;
+}
