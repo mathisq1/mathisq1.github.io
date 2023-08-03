@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+
+:root{
+  --firstcolor : #FDFDFD;
+  --secondcolor : #9461D3;
+  --background : #1A1A1E;
+  --Firstpolice: MuseoModerno;
+  --Secondpolice: Sansita Swashed;
+  --paragraphepolice: Work Sans;
+}
+
+body{
+    background-color: var(--background);
+    scroll-behavior: smooth;
+}
+
+body h2 {
+  color: var(--firstcolor);
+  font-family: var(--Firstpolice);
+  font-size: 3.5em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 8rem;
+}
+
+
+/* Navigation */
+
+nav a{
+    color: var(--firstcolor);
+    text-decoration: none;
+    font-family: var(--Firstpolice);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+nav a:hover{
+  color: var(--secondcolor);
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2.5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+/* Boutton */
+
+button{
+    background-color: var(--secondcolor);
+    border: none;
+    color: var(--firstcolor);
+    border-radius: 30px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    color: var(--primaire, #FDFDFD);
+    text-align: justify;
+    font-family: var(--Firstpolice);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+button:hover{
+  background-color: #5a1fa2;
+  color:#8d8d8dfd;
+}
+
+/* Texte sur le coté */
+
+.principal-texte{
+    color: var(--secondcolor);
+    text-align: justify;
+    font-family: var(--Secondpolice);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+.second-texte{
+    color: var(--firstcolor);
+    text-align: justify;
+    font-family: var(--Firstpolice);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.border-texte{
+    transform: rotate(-90deg);
+    display: flex;
+    gap: 20px;
+}
+
+/* texte nom des projets */
+
+#nom-projets-Acedofit{
+    position: absolute;
+    left: -3120px;
+    bottom: -2400px;
+}
+
+#nom-projets-Photoshop{
+    position: absolute;
+    left: -3120px;
+    bottom: -2400px;
+}
+
+
+/* CSS planche */
+
+.planche-projets img{
+    width: 50rem;
+}
+
+.planche-projets {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    margin-top: 70px;
+}

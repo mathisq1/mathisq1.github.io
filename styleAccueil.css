@@ -36,7 +36,7 @@ nav a{
     text-decoration: none;
     font-family: var(--Firstpolice);
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 nav a:hover{
@@ -54,8 +54,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding-top: 2.5rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 
 
 }
