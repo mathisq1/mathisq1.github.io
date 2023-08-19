@@ -125,8 +125,8 @@ button:hover{
 
 #nom-projets-Photoshop{
     position: absolute;
-    left: -1280px;
-    bottom: -580px;
+    left: -1020px;
+    bottom: -290px;
 }
 
 
@@ -147,13 +147,76 @@ button:hover{
 
 /* CSS creation */
 
-.creation img{
-    border-bottom: 10px solid var(--secondaire, #9461D3);
-    border-left: 10px solid var(--secondaire, #9461D3);
+.creation h1{
+    color: var(--firstcolor);
+    font-family: var(--Firstpolice);
+    font-size: 3.3rem;
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.titre-couleur{
+    color: var(--secondcolor);
+    font-family: var(--Secondpolice);
+    font-size: 3.5rem;
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.Titre-dispo{
+    display: flex;
+    justify-content: center;
+
 }
 
 .creation{
-    display: block;
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
     margin-left: 10rem;
     margin-right: 10rem;
+
+}
+
+.Livre-de-poche {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.Affiches {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+
+
+}
+
+.Texte-projet p {
+    color: var(--firstcolor);
+    text-align:center;
+    font-family: var(--paragraphepolice);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Texte-projet {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    margin-bottom: 10px;
+
 }
