@@ -129,6 +129,12 @@ button:hover{
     bottom: -290px;
 }
 
+#nom-projets-Web-design{
+    position: absolute;
+    left: -1110px;
+    bottom: -390px;
+}
+
 
 /* CSS planche */
 
@@ -180,7 +186,7 @@ button:hover{
     margin-top: 4.5rem;
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 90px;
     margin-left: 10rem;
     margin-right: 10rem;
 
@@ -219,4 +225,50 @@ button:hover{
     flex-direction: column;
     margin-bottom: 10px;
 
+}
+
+/* Adobe xd */
+
+.dispo-adobe-gauche{
+    display: flex;
+    gap: 65px;
+    justify-content: center;
+
+}
+
+.dispo-adobe-gauche p {
+    color: var(--firstcolor);
+    font-family: var(--paragraphepolice);
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+} 
+
+.dispo-adobe-gauche h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 2.8rem;
+    letter-spacing: 0.1rem
+}
+
+.texte-dispo{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 15px;   
+}
+
+#reverse{
+    flex-direction:row-reverse;
+}
+
+.creation a{
+    text-decoration: none;
+}
+
+.creation a :hover {
+    color: var(--secondcolor);
 }
