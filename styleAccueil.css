@@ -374,3 +374,172 @@ button:hover{
   flex-direction: column; 
   gap: 20px;
 }
+
+
+
+/* CSS responsive  */
+
+@media screen and (max-width: 1200px) {
+
+  .accueil{
+    gap: 5rem;
+  }
+
+  .accueil img {
+    width: 18rem;
+  }
+
+  .nom-prenom h1{
+    font-size: 7rem;
+  }
+
+  .nom-prenom h2{
+    font-size: 4.5rem;
+  }
+
+  .descriptif{
+    gap: 3rem;
+  }
+
+  .accueil p {
+    font-size: 1rem;
+    width: 650px;
+  }
+
+
+  .tous-outils{
+   flex-wrap: wrap;
+   row-gap: 60px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  
+  .accueil{
+    gap: 4rem;
+  }
+
+  .accueil img {
+    width: 15rem;
+  }
+
+  .nom-prenom h1{
+    font-size: 5rem;
+  }
+
+  .nom-prenom h2{
+    font-size: 4rem;
+  }
+
+  .accueil p {
+    font-size: 1rem;
+    width: 450px;
+  }
+
+}
+
+@media screen and (max-width: 930px) {
+
+#outils{
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+#Projets{
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+
+}
+  
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .accueil{
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .accueil p {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+  
+  .descriptif{
+    align-items: center;
+  }
+
+  .accueil{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  
+  .nom-prenom h2{
+    padding: 0px;
+  }
+
+  .nom-prenom{
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width: 720px) {
+  
+  .accueil img {
+    width: 13rem;
+  }
+
+  .descriptif{
+    gap: 1rem;
+  }
+
+  #Projets,#outils{
+    font-size: 3rem ;
+  }
+  .visible{
+    visibility: hidden;
+    display: none;
+  }
+
+  .navigation a{
+    font-size: 1.2rem;
+  }
+
+  .navigation{
+    gap: 20px;
+  }
+  
+  nav {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    justify-content: space-around;
+  }
+
+  button{
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  
+  .cadre-blanc{
+    width: 15rem;
+  }
+
+  .logo-projets{
+    width: 11.3rem !important;
+    left: 30px;
+    top: 43px;
+  }
+
+  .logo-projets:hover{
+    left: 30px;
+    top: 43px;
+
+  }
+
+}

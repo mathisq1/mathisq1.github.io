@@ -186,7 +186,7 @@ button:hover{
     margin-top: 4.5rem;
     display: flex;
     flex-direction: column;
-    gap: 90px;
+    gap: 70px;
     margin-left: 10rem;
     margin-right: 10rem;
 
@@ -206,7 +206,6 @@ button:hover{
     gap: 50px;
     justify-content: center;
 
-
 }
 
 .Texte-projet p {
@@ -217,11 +216,13 @@ button:hover{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 70%;
 }
 
 .Texte-projet {
     display: flex;
-    gap: 40px;
+    gap: 20px;
+    align-items: center;
     flex-direction: column;
     margin-bottom: 10px;
 
