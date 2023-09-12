@@ -543,3 +543,23 @@ button:hover{
   }
 
 }
+
+@media screen and (max-width: 430px) {
+  
+  .cadre-blanc{
+    width: 13rem;
+  }
+
+  .logo-projets{
+    width: 9.7rem !important;
+    left: 28px;
+    top: 39px;
+  }
+
+  .logo-projets:hover{
+    left: 28px;
+    top: 39px;
+
+  }
+
+}

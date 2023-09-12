@@ -353,6 +353,14 @@ button:hover{
 
   @media screen and (max-width: 470px){
 
+    .principal-texte,.second-texte{
+        font-size: 1.7rem;
+    }
+
+    #nom-projets-Acedofit{
+        left: -1845px;
+        bottom: -1165px; 
+    }
     
     .planche-projets img {
         width: 15rem;
