@@ -230,6 +230,10 @@ button:hover{
 
 /* Adobe xd */
 
+.Itrips{
+    gap: 15rem;
+}
+
 .dispo-adobe-gauche{
     display: flex;
     gap: 65px;
@@ -276,6 +280,43 @@ button:hover{
 
 /* CSS responsive */
 
+@media screen and (max-width: 1350px)  {
+
+    #Webdesigntitre{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .dispo-adobe-gauche{
+        flex-direction: column-reverse !important;
+        align-items: center;
+    }
+
+    .texte-dispo{
+        align-items: center;
+    }
+
+    .texte-dispo p {
+        text-align: center;
+    }
+
+    .Itrips{
+
+        gap: 0px !important;
+
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .Titre-dispo {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 1050px) {
 
     .planche-projets img{
@@ -292,6 +333,33 @@ button:hover{
     
 }
 
+@media screen and (max-width: 870px) {
+
+    .titre-couleur{
+        font-size: 2.7rem;
+    }
+
+    .creation h1 {
+        font-size: 2.7rem;
+    }
+    
+}
+
+@media screen and (max-width: 870px){
+
+
+}
+
+@media screen and (max-width: 765px){
+
+    #Texteprincipalwebdesign{
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+}
+
+
 
 @media screen and (max-width: 720px) {
   
@@ -302,6 +370,19 @@ button:hover{
     #nom-projets-Acedofit{
         left: -2140px;
         bottom: -1360px; 
+    }
+
+    #nom-projets-Web-design{
+        left: -765px;
+        bottom: -130px
+    }
+
+    .creation h1 {
+        font-size: 2rem;
+    }
+
+    .titre-couleur {
+        font-size: 2rem;
     }
 
     .planche-projets img {
