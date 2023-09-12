@@ -562,4 +562,20 @@ button:hover{
 
   }
 
+  .monprojets h5 {
+    font-size: 2.3rem;
+  }
+
+  .monprojets h6 {
+    font-size: 1.6rem;
+  }
+
+  .planche-projets{
+    margin-top: 30px;
+  }
+
+  .visible2{
+    visibility: hidden;
+    display: none;
+  }
 }
