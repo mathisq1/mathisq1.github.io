@@ -120,7 +120,7 @@ button:hover{
 #nom-projets-Acedofit{
     position: absolute;
     left: -3120px;
-    bottom: -2400px;
+    bottom: -2420px;
 }
 
 #nom-projets-Photoshop{
@@ -273,3 +273,89 @@ button:hover{
 .creation a :hover {
     color: var(--secondcolor);
 }
+
+/* CSS responsive */
+
+@media screen and (max-width: 1050px) {
+
+    .planche-projets img{
+        width: 40rem;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    .planche-projets img{
+        width: 30rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 720px) {
+  
+    .principal-texte,.second-texte{
+        font-size: 2.0rem;
+    }
+
+    #nom-projets-Acedofit{
+        left: -2140px;
+        bottom: -1360px; 
+    }
+
+    .planche-projets img {
+        width: 25rem;
+    }
+
+    .accueil img {
+      width: 13rem;
+    }
+  
+    .descriptif{
+      gap: 1rem;
+    }
+  
+    #Projets,#outils{
+      font-size: 3rem ;
+    }
+    .visible{
+      visibility: hidden;
+      display: none;
+    }
+  
+    .navigation a{
+      font-size: 1.2rem;
+    }
+  
+    .navigation{
+      gap: 20px;
+    }
+    
+    nav {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      justify-content: space-around;
+    }
+  
+    button{
+      font-size: 0.9rem;
+    }
+  }
+
+
+  @media screen and (max-width: 590px) {
+
+    .planche-projets img {
+        width: 20rem;
+    }
+  }
+
+  @media screen and (max-width: 470px){
+
+    
+    .planche-projets img {
+        width: 15rem;
+    }
+
+  }
