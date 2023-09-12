@@ -366,4 +366,9 @@ button:hover{
         width: 15rem;
     }
 
+    .visible2{
+        visibility: hidden;
+        display: none;
+      }
+
   }
