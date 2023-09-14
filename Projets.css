@@ -132,7 +132,7 @@ button:hover{
 #nom-projets-Web-design{
     position: absolute;
     left: -1110px;
-    bottom: -390px;
+    bottom: -520px;
 }
 
 
@@ -216,7 +216,6 @@ button:hover{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 70%;
 }
 
 .Texte-projet {
@@ -278,6 +277,11 @@ button:hover{
     color: var(--secondcolor);
 }
 
+.visible_texte {
+    display: none;
+    visibility: hidden;
+}
+
 /* CSS responsive */
 
 @media screen and (max-width: 1350px)  {
@@ -322,6 +326,18 @@ button:hover{
     .planche-projets img{
         width: 40rem;
     }
+
+    .img45{
+        width: 35rem !important;
+    }
+
+    .img14{
+        width: 11rem !important;
+    }
+
+    .img17{
+        width: 13rem !important;
+    }
     
 }
 
@@ -330,7 +346,26 @@ button:hover{
     .planche-projets img{
         width: 30rem;
     }
+
+    .Texte-projet p {
+        width: 100%;
+    }
     
+    .img45{
+        width: 33rem !important;
+    }
+
+    .img14{
+        width: 10rem !important;
+    }
+
+    .img17{
+        width: 10rem !important;
+    }
+
+    .img38{
+        width: 30rem !important;
+    }
 }
 
 @media screen and (max-width: 870px) {
@@ -357,9 +392,28 @@ button:hover{
         align-items: center;
     }
 
+    .Affiches{
+        flex-direction: column;
+    }
+
+    .img45{
+        width: 28rem !important;
+    }
+
+    .img14{
+        width: 8rem !important;
+    }
+
+    .img17{
+        width: 15rem !important;
+    }
+
+    .img38{
+        width: 30rem !important;
+    }
+
+
 }
-
-
 
 @media screen and (max-width: 720px) {
   
@@ -373,8 +427,13 @@ button:hover{
     }
 
     #nom-projets-Web-design{
-        left: -765px;
+        left: -760px;
         bottom: -130px
+    }
+
+    .visible_texte{
+        visibility: visible;
+        display: contents;
     }
 
     .creation h1 {
@@ -422,6 +481,29 @@ button:hover{
     button{
       font-size: 0.9rem;
     }
+
+    .dispo-adobe-gauche h2 {
+        font-size: 2.4rem;
+    }
+
+    .dispo-adobe-gauche p {
+        font-size: 0.9rem;
+        width: 70%;
+
+    }
+
+    .imagecadre{
+        width: 23rem !important;
+    }
+
+    #ItripsSSS{
+        width: 9rem !important;
+    }
+
+    #nom-projets-Photoshop{
+        left: -700px;
+        bottom: -70px;
+    }
   }
 
 
@@ -429,6 +511,21 @@ button:hover{
 
     .planche-projets img {
         width: 20rem;
+    }
+
+    .Titre-dispo{
+        display: none;
+        visibility: hidden;
+    }
+
+    .creation{
+        margin-left: 0rem;
+        margin-right: 0rem;
+
+    }
+
+    .Texte-projet p{
+        width: 70%;
     }
   }
 
@@ -442,6 +539,33 @@ button:hover{
         left: -1845px;
         bottom: -1165px; 
     }
+
+    #nom-projets-Web-design{
+        left: -660px;
+        bottom: -20px; 
+    }
+
+    .dispo-adobe-gauche{
+        gap: 60px;
+    }
+
+
+    .dispo-adobe-gauche p {
+        font-size: 0.9rem;
+        width: 60%;
+    }
+
+    .dispo-adobe-gauche h2 {
+        font-size: 2.0rem;
+    }
+
+    .imagecadre{
+        width: 19rem !important;
+    }
+
+    #ItripsSSS{
+        width: 9rem !important;
+    }
     
     .planche-projets img {
         width: 15rem;
@@ -451,5 +575,30 @@ button:hover{
         visibility: hidden;
         display: none;
       }
+
+      .Texte-projet p{
+        width: 80%;
+    }
+
+    .img45{
+        width: 17rem !important;
+    }
+
+    .img14{
+        width: 4.5rem !important;
+    }
+
+    .img17{
+        width: 15rem !important;
+    }
+
+    .img38{
+        width: 19rem !important;
+    }
+
+    #nom-projets-Photoshop{
+        left: -610px;
+        bottom: -40px;
+    }
 
   }
