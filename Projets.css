@@ -530,7 +530,12 @@ button:hover{
   }
 
   @media screen and (max-width: 470px){
-
+    
+    .border-texte{
+        visibility: hidden;
+        display: none;
+    }
+    
     .principal-texte,.second-texte{
         font-size: 1.7rem;
     }
