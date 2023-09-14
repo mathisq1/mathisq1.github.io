@@ -231,6 +231,87 @@
 </div>
 
 
+<style>
+    /* Style de la pop-up */
+    #popup {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(28, 28, 28, 0.395);
+    }
+
+    /* Style du contenu de la pop-up */
+    #popup-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Style du bouton "Continuer" */
+    #continue-button {
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    #popup-content p{
+        color: #9461D3;
+        font-family: var(--Firstpolice);
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        
+    }
+</style>
+</head>
+<body>
+
+<div id="popup">
+<div id="popup-content">
+    <p>J'ai entièrement conçu ce site moi-même. Pour une expérience optimale, veuillez le consulter sur un ordinateur.</p>
+    <button id="continue-button" onclick="closePopup()">Continuer</button>
+</div>
+</div>
+
+<script>
+// Fonction pour fermer la pop-up
+function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+    // Enregistre un cookie pour indiquer que l'utilisateur a déjà vu la pop-up
+    document.cookie = "seenPopup=true; max-age=86400"; // Le cookie expire après 24 heures
+}
+
+// Affiche la pop-up au chargement de la page si l'utilisateur ne l'a pas déjà vue
+window.onload = function() {
+    if (document.cookie.split(';').some((item) => item.trim().startsWith('seenPopup='))) {
+        // L'utilisateur a déjà vu la pop-up, ne rien faire
+    } else {
+        // L'utilisateur n'a pas encore vu la pop-up, l'afficher
+        document.getElementById('popup').style.display = 'block';
+    }
+}
+</script>
+
+
+
 </main>
 
 <footer>
