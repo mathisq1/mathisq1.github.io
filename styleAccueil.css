@@ -375,7 +375,28 @@ button:hover{
   gap: 20px;
 }
 
+.autre-outils{
 
+  display: flex;
+  justify-content: center;
+  font-family: var(--Firstpolice);
+  font-size: 35px;
+  color: #949494 !important;
+
+
+}
+
+.autre-outils a{
+
+  text-decoration: none;
+
+}
+
+.autre-outils:hover{
+
+  color: var(--firstcolor) !important;
+
+}
 
 /* CSS responsive  */
 
