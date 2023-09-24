@@ -29,6 +29,10 @@ body h2 {
   padding-left: 8rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Navigation */
 
 nav a{
@@ -392,9 +396,13 @@ button:hover{
 
 }
 
-.autre-outils:hover{
+.Un-outils h6:hover{
+  color: var(--secondcolor);
+}
 
-  color: var(--firstcolor) !important;
+.autre-outils a:hover{
+
+  color: #9461d39d !important;
 
 }
 

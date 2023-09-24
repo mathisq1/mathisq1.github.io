@@ -29,6 +29,10 @@ body h2 {
   padding-left: 8rem;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 
 /* Navigation */
 
