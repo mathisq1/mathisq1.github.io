@@ -571,6 +571,12 @@ button:hover{
 
   }
 
+  #Contact button{
+     font-size: 16px!;
+     padding-left: 16Px !important;
+     padding-right: 16Px !important;
+  }
+
 }
 
 @media screen and (max-width: 430px) {
@@ -601,6 +607,10 @@ button:hover{
 
   .planche-projets{
     margin-top: 30px;
+  }
+
+  .descriptif p{
+    
   }
 
 }
