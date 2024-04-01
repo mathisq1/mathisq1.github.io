@@ -14,6 +14,35 @@
   --paragraphepolice: Work Sans;
 }
 
+
+body {
+  --sb-track-color: #1a1a1e;
+  --sb-thumb-color: #9461d3;
+  --sb-size: 7px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 15px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+
 body{
     background-color: var(--background);
     scroll-behavior: smooth;
@@ -22,7 +51,7 @@ body{
 body h2 {
   color: var(--firstcolor);
   font-family: var(--Firstpolice);
-  font-size: 3.5em;
+  font-size: 4em;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -58,8 +87,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding-top: 2.5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
 
 
 }
@@ -102,8 +131,8 @@ nav{
 
 .nom-prenom h2{
     color: var(--secondcolor);
-    font-family: var(--Secondpolice);
-    font-size: 6.5rem;
+    font-family: var(--Firstpolice);
+    font-size: 6.2rem;
     font-style: normal;
     font-weight: 700;
     margin: 0;
@@ -111,7 +140,7 @@ nav{
 
 .accueil p{
     color: var(--firstcolor);
-    text-align: justify;
+    text-align: left;
     font-family: var(--paragraphepolice);
     font-size: 1.2rem;
     font-style: normal;
@@ -124,32 +153,69 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 5rem;
+    
 }
 
-/* Boutton */
+/* footer */
 
-button{
-    background-color: var(--secondcolor);
-    border: none;
-    color: var(--firstcolor);
-    border-radius: 30px;
-    padding-top: 0.7rem;
-    padding-bottom: 0.7rem;
-    padding-left: 1.3rem;
-    padding-right: 1.3rem;
-    color: var(--primaire, #FDFDFD);
-    text-align: justify;
-    font-family: var(--Firstpolice);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 3rem;
 }
 
-button:hover{
-  background-color: #5a1fa2;
-  color:#8d8d8dfd;
+footer a{
+  text-decoration: none;
 }
+
+footer h6{
+  color: var(--firstcolor);
+  font-family: MuseoModerno;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0px;
+}
+
+.footerinfo{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.footerrs{
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+
+.footerrs img{
+  width: 2rem;
+}
+
+.footerseparateur{
+  background-color: var(--secondcolor);
+  width: 60%;
+  height: 7px;
+  border-radius: 25px;
+
+}
+
+@media screen and (max-width: 750px) {
+
+  .footerseparateur{
+    width: 90%;
+  }
+
+}
+
+
 
 /* Texte défilant */
 
@@ -186,7 +252,6 @@ button:hover{
 
   .scroll h4 {
     color: var(--firstcolor);
-    text-align: justify;
     font-family: var(--Firstpolice);
     font-size: 2rem;
     font-style: normal;
@@ -205,7 +270,6 @@ button:hover{
 
   .scrollinverse h4 {
     color: var(--firstcolor);
-    text-align: justify;
     font-family: var(--Firstpolice);
     font-size: 2rem;
     font-style: normal;
@@ -214,90 +278,150 @@ button:hover{
     margin: 10px;
   }
 
-  /* Mes projets */
+/* Mes projets */
 
-  .logo-projets{
-    width: 14.3rem;
-    height: auto;
-    flex-shrink: 0; 
-    position: absolute;
-    left: 38px;
-    top: 54px;
-  }
-
-  .logo-projets:hover{
-    width: 17.15rem;
-    left: 15px;
-    top: 26px;
-    transition: .6s ease, transform .6s ease;
-  }
-
-  .cadre-blanc{
-    width: 19rem;
-  }
-
-  .Cadre{
-    position: relative;
-  }
-
-  .encadrementcadre{
+  .mesprojets{
     display: flex;
-    justify-content: center;
-    
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
   }
 
-  .monprojets h5{
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    transform: rotate(180deg);
-    color: var(--firstcolor);
-    font-family: var(--Firstpolice);
-    font-size: 2.7rem;
-    font-style: normal;
-    font-weight: 600;
-    margin: 0;
-    margin-left: 10px;
-    padding-top: 20px;    
-  } 
+  .projetimage {
+    width: auto;    
+    height: 21rem;
+  }
 
-  .monprojets h6{
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    transform: rotate(180deg);
-    color: var(--secondcolor);  
-    font-family:  var(--Secondpolice);
-    font-size: 1.8rem;
+  .projetline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .projetinfo h4{
+    color: var(--firstcolor);
+    font-family: MuseoModerno;
+    font-size: 3.6rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     margin: 0;
-    padding-top: 20px;
+    padding-bottom: 5px;
   }
 
-  .monprojets{
+  .projetinfo h4:hover{
+    color: var(--secondcolor);
+  }
+
+  .projetinfo a {
+    text-decoration: none;
+  }
+
+  .projetinfo h6 {
+    color: #FFF;
+    font-family: MuseoModerno;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+  }
+
+  .projetsuite a {
     display: flex;
-    flex-direction: row-reverse;
     gap: 5px;
-    line-height: 50px
+    text-decoration: none;
   }
 
-  .mesprojets{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 90px;
-    
+  .projetsuite a:hover {
+    position: relative;
+	  color: white;
+	  text-decoration: none;}
+	
+  .projetsuite a:after {
+		content: '';
+		position: absolute;
+    left: 11%;
+		bottom: 0;
+		transform: translateX(-50%) scaleX(0);
+		transform-origin: 50% 50%;
+		width: 22%;
+		height: 1px;
+		background-color: var(--firstcolor);
+		transition: transform 250ms;
+	}
+	
+	.projetsuite a:hover {
+		
+		&::after {
+			transform: translateX(-50%) scaleX(1);
+		}
+		
+	}
+	
+
+  .projet{
+    border-radius: 1.5rem;
+    background: rgba(148, 97, 211, 0.39);
+    backdrop-filter: blur(35px);
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 0.5rem;
   }
- 
-  .mesprojets>*{
-    flex: 0 0 30%;
-  }  
+
+  .projet h5{
+    color: var(--firstcolor);
+    font-family: MuseoModerno;
+    font-size: 1.0rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 2px;
+  }
+
+  .projetinfo p{
+    color: var(--firstcolor);
+    font-family: "Work Sans";
+    text-align: left;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 39rem;
+  }
+
+  .projetinfo p a{
+    color: #c093f7;
+  }
+
+  /* Annimation */
+
+  @keyframes enter-animation {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .image-animation {
+      animation: enter-animation 1.5s 1;
+    }
+  }
+
 
 /* Mes Outils */
 
 .Titre-outils h5{
   color: var(--firstcolor);
-  font-family:  var(--Secondpolice);
+  font-family:  var(--Firstpolice);
   font-size: 2.3rem;
   font-style: normal;
   font-weight: 600;
@@ -408,6 +532,14 @@ button:hover{
 
 /* CSS responsive  */
 
+@media screen and (max-width: 1300px) {
+
+  .projetinfo p{
+    width: 25rem;
+  }
+  
+}
+
 @media screen and (max-width: 1200px) {
 
   .accueil{
@@ -426,15 +558,10 @@ button:hover{
     font-size: 4.5rem;
   }
 
-  .descriptif{
-    gap: 3rem;
-  }
-
   .accueil p {
     font-size: 1rem;
-    width: 650px;
+    width: 630px;
   }
-
 
   .tous-outils{
    flex-wrap: wrap;
@@ -465,9 +592,25 @@ button:hover{
     width: 450px;
   }
 
+  .projetline{
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .projetinfo p {
+    width: 35rem;
+  }
+
 }
 
 @media screen and (max-width: 930px) {
+
+   .projettag{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    justify-content: flex-start;
+  }
 
 #outils{
   display: flex;
@@ -494,7 +637,7 @@ button:hover{
 
   .accueil p {
     font-size: 1.2rem;
-    width: 80%;
+    width: 85%;
   }
   
   .descriptif{
@@ -514,6 +657,8 @@ button:hover{
     align-items: center;
   }
 
+
+
 }
 
 @media screen and (max-width: 720px) {
@@ -522,16 +667,8 @@ button:hover{
     width: 13rem;
   }
 
-  .descriptif{
-    gap: 1rem;
-  }
-
   #Projets,#outils{
     font-size: 3rem ;
-  }
-  .visible{
-    visibility: hidden;
-    display: none;
   }
 
   .navigation a{
@@ -548,65 +685,46 @@ button:hover{
     justify-content: space-around;
   }
 
-  button{
-    font-size: 0.9rem;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  
-  .cadre-blanc{
-    width: 15rem;
+  .projetimage{
+    height: 15rem;
   }
 
-  .logo-projets{
-    width: 11.3rem !important;
-    left: 30px;
-    top: 43px;
+  .projetinfo p{
+    width: 25rem;
   }
 
-  .logo-projets:hover{
-    left: 30px;
-    top: 43px;
-
-  }
-
-  #Contact button{
-     font-size: 16px!;
-     padding-left: 16Px !important;
-     padding-right: 16Px !important;
+  .projetinfo h4{
+    font-size: 3rem;
   }
 
 }
 
-@media screen and (max-width: 430px) {
-  
-  .cadre-blanc{
-    width: 13rem;
+@media screen and (max-width: 500px) {
+
+  .projetinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .projetinfo  h4{
+    font-size: 2.5rem;
+    width: 20rem;
   }
 
-  .logo-projets{
-    width: 9.7rem !important;
-    left: 28px;
-    top: 39px;
+  .projetinfo p{
+    width: 20rem;
   }
 
-  .logo-projets:hover{
-    left: 28px;
-    top: 39px;
-
+  .projetimage{
+    height: 12rem;
   }
 
-  .monprojets h5 {
-    font-size: 2.3rem;
-  }
-
-  .monprojets h6 {
-    font-size: 1.6rem;
-  }
-
-  .planche-projets{
-    margin-top: 30px;
+  .projettag80 {
+    width: 80%;
   }
 
 }

@@ -19,6 +19,34 @@ body{
     scroll-behavior: smooth;
 }
 
+body {
+    --sb-track-color: #1a1a1e;
+    --sb-thumb-color: #9461d3;
+    --sb-size: 7px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--sb-size)
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 15px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 15px;
+    
+  }
+  
+  @supports not selector(::-webkit-scrollbar) {
+    body {
+      scrollbar-color: var(--sb-thumb-color)
+                       var(--sb-track-color);
+    }
+  }
+
 body h2 {
   color: var(--firstcolor);
   font-family: var(--Firstpolice);
@@ -47,6 +75,7 @@ nav a{
 nav a:hover{
   color: var(--secondcolor);
 }
+
 .navigation{
     display: flex;
     justify-content: center;
@@ -59,91 +88,244 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding-top: 2.5rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
 
-/* Boutton */
+.Contact button{
+    font-family: MuseoModerno !important;
+    font-size: 1.3rem !important;
+    padding: 0px 30px !important;
+    height: 45px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
 
-button{
-    background-color: var(--secondcolor);
-    border: none;
+@media screen and (max-width: 720px) {
+  
+    .navigation a{
+        font-size: 1.4rem;
+      }
+    
+      .navigation{
+        gap: 30px;
+      }
+      
+      nav {
+        padding-left: 3.2rem !important;
+        padding-right: 3.2rem !important;
+      }
+
+      .Contact button{
+        font-size: 1.1rem !important;
+        padding: 0px 25px !important;
+        height: 40px !important;
+      }
+}
+
+@media screen and (max-width: 1000px) {
+    nav{    
+        padding-top: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+  }
+  
+  footer a{
+    text-decoration: none;
+  }
+  
+  footer h6{
     color: var(--firstcolor);
-    border-radius: 30px;
-    padding-top: 0.7rem;
-    padding-bottom: 0.7rem;
-    padding-left: 1.3rem;
-    padding-right: 1.3rem;
-    color: var(--primaire, #FDFDFD);
-    text-align: justify;
-    font-family: var(--Firstpolice);
-    font-size: 20px;
+    font-family: MuseoModerno;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 600;
-}
-
-button:hover{
-  background-color: #5a1fa2;
-  color:#8d8d8dfd;
-}
-
-/* Texte sur le coté */
-
-.principal-texte{
-    color: var(--secondcolor);
-    text-align: justify;
-    font-family: var(--Secondpolice);
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 700;
     line-height: normal;
     margin: 0px;
-    white-space: nowrap;
-}
-
-.second-texte{
-    color: var(--firstcolor);
-    text-align: justify;
-    font-family: var(--Firstpolice);
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0;
-    white-space: nowrap;
-}
-
-.border-texte{
-    transform: rotate(-90deg);
+  }
+  
+  .footerinfo{
     display: flex;
-    gap: 20px;
-}
-
-/* texte nom des projets */
-
-#nom-projets-Acedofit{
-    position: absolute;
-    left: -3120px;
-    bottom: -2420px;
-}
-
-#nom-projets-Photoshop{
-    position: absolute;
-    left: -1020px;
-    bottom: -290px;
-}
-
-#nom-projets-Web-design{
-    position: absolute;
-    left: -1110px;
-    bottom: -520px;
-}
-
+    flex-direction: row;
+    gap: 60px;
+  }
+  
+  .footerrs{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+  }
+  
+  .footerrs img{
+    width: 2rem;
+  }
+  
+  .footerseparateur{
+    background-color: var(--secondcolor);
+    width: 60%;
+    height: 7px;
+    border-radius: 25px;
+  
+  }
+  
+  @media screen and (max-width: 750px) {
+  
+    .footerseparateur{
+      width: 90%;
+    }
+  
+  }
+  
 
 /* CSS planche */
 
+.projet{
+    border-radius: 1.5rem;
+    background: rgba(148, 97, 211, 0.39);
+    backdrop-filter: blur(35px);
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 0.5rem;
+  }
+
+  .projet h5{
+    color: var(--firstcolor);
+    font-family: MuseoModerno;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 2px;
+  }
+
+
+    .projettag{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 15px 5px;
+     justify-content: flex-start;
+
+    }
+
+    .colonedouble{
+        margin-top: 4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .colonedoubleinfo{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        position: sticky;
+        top: 30px;
+        align-self: flex-start;
+    }
+
+    .colonedoubleinfo h3{
+        color: var(--firstcolor);
+        font-family: MuseoModerno;
+        font-size: 2.3rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0px;
+        height: 2.9rem;
+    }
+
+    .colonedoubleinfo p{
+        color: var(--firstcolor);
+        font-family: "Work Sans";
+        text-align: left;
+        font-size: 1.09rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 25rem;
+        margin: 0px;
+      }
+    
+      .colonedoubleinfo p a{
+        color: #c093f7;
+      }
+
+      .planche-projets{
+        flex: 2 auto;
+        height: 0%;
+      }
+
+      .Liens_sup a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+      }
+
+      .Liens_sup h5:hover{
+        color: var(--secondcolor);
+      }
+
+      .Liens_sup h5{
+        color: #BCBABA;
+        font-family: MuseoModerno;
+        font-size: 1.3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0px;
+      }
+
+      .Liens_sup {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 25px;
+      }
+
+      .retouthaut h4{
+        color: var(--firstcolor);
+        font-family: MuseoModerno;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0px;
+      }
+
+      .retouthaut a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+      }
+      
+      .retouthaut{
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 21rem;
+      }
+
 .planche-projets img{
-    width: 50rem;
+    width: 90%;
 }
 
 .planche-projets {
@@ -151,7 +333,101 @@ button:hover{
     flex-direction: column;
     gap: 0px;
     align-items: center;
-    margin-top: 70px;
+}
+
+/* CSS responsive plance */
+
+@media screen and (max-width: 1000px){
+
+    .colonedouble{
+        margin-left: 3rem ;
+        margin-right: 1.5rem;
+    }
+
+    .retouthaut{
+        padding-top: 15rem;
+    }
+
+}
+
+@media screen and (max-width: 880px){
+
+    .colonedouble{
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 1rem ;
+        margin-right: 1rem;
+        margin-top: 1.9rem;
+    }
+
+    .colonedouble p{
+        width: 90%;
+    }
+
+    .Liens_sup{
+        margin-top: 0px;
+    }
+
+    .colonedoubleinfo{
+        display: flex;
+        position: relative;
+        top: 0px;
+        padding-left: 3rem;
+    }
+
+    .retouthaut{
+        display: none;
+    }
+
+    .Liens_sup{
+        gap: 10px;
+    }
+
+    .Liens_sup h5{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 580px){
+
+    .colonedouble{
+        margin-left: 0rem ;
+        margin-right: 0rem;
+    }
+
+    .colonedoubleinfo{
+        padding-left: 2rem;
+    }
+
+    nav {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+      }
+
+}
+
+@media screen and (max-width:430px) {
+
+    .visible{
+        display: none;
+    }
+    
+}
+
+
+/* CSS EYESAFE */
+
+@media screen and (max-width:800px) {
+
+#Vidéoeyesafe{
+    height: 270px !important;
+}
+
+#figmaebay{
+    height: 270px !important;
+}
+
 }
 
 
@@ -311,9 +587,7 @@ button:hover{
     }
 
     .Itrips{
-
         gap: 0px !important;
-
     }
 }
 
@@ -325,51 +599,12 @@ button:hover{
     }
 }
 
-@media screen and (max-width: 1050px) {
-
-    .planche-projets img{
-        width: 40rem;
-    }
-
-    .img45{
-        width: 35rem !important;
-    }
-
-    .img14{
-        width: 11rem !important;
-    }
-
-    .img17{
-        width: 13rem !important;
-    }
-    
-}
-
 @media screen and (max-width: 900px) {
-
-    .planche-projets img{
-        width: 30rem;
-    }
 
     .Texte-projet p {
         width: 100%;
     }
     
-    .img45{
-        width: 33rem !important;
-    }
-
-    .img14{
-        width: 10rem !important;
-    }
-
-    .img17{
-        width: 10rem !important;
-    }
-
-    .img38{
-        width: 30rem !important;
-    }
 }
 
 @media screen and (max-width: 870px) {
@@ -384,11 +619,6 @@ button:hover{
     
 }
 
-@media screen and (max-width: 870px){
-
-
-}
-
 @media screen and (max-width: 765px){
 
     #Texteprincipalwebdesign{
@@ -400,23 +630,6 @@ button:hover{
         flex-direction: column;
     }
 
-    .img45{
-        width: 28rem !important;
-    }
-
-    .img14{
-        width: 8rem !important;
-    }
-
-    .img17{
-        width: 15rem !important;
-    }
-
-    .img38{
-        width: 30rem !important;
-    }
-
-
 }
 
 @media screen and (max-width: 720px) {
@@ -425,31 +638,12 @@ button:hover{
         font-size: 2.0rem;
     }
 
-    #nom-projets-Acedofit{
-        left: -2140px;
-        bottom: -1360px; 
-    }
-
-    #nom-projets-Web-design{
-        left: -760px;
-        bottom: -130px
-    }
-
-    .visible_texte{
-        visibility: visible;
-        display: contents;
-    }
-
     .creation h1 {
         font-size: 2rem;
     }
 
     .titre-couleur {
         font-size: 2rem;
-    }
-
-    .planche-projets img {
-        width: 25rem;
     }
 
     .accueil img {
@@ -463,28 +657,6 @@ button:hover{
     #Projets,#outils{
       font-size: 3rem ;
     }
-    .visible{
-      visibility: hidden;
-      display: none;
-    }
-  
-    .navigation a{
-      font-size: 1.2rem;
-    }
-  
-    .navigation{
-      gap: 20px;
-    }
-    
-    nav {
-      padding-left: 0.5rem;
-      padding-right: 0.5rem;
-      justify-content: space-around;
-    }
-  
-    button{
-      font-size: 0.9rem;
-    }
 
     .dispo-adobe-gauche h2 {
         font-size: 2.4rem;
@@ -493,7 +665,6 @@ button:hover{
     .dispo-adobe-gauche p {
         font-size: 0.9rem;
         width: 70%;
-
     }
 
     .imagecadre{
@@ -512,10 +683,6 @@ button:hover{
 
 
   @media screen and (max-width: 590px) {
-
-    .planche-projets img {
-        width: 20rem;
-    }
 
     .Titre-dispo{
         display: none;
@@ -544,20 +711,9 @@ button:hover{
         font-size: 1.7rem;
     }
 
-    #nom-projets-Acedofit{
-        left: -1845px;
-        bottom: -1165px; 
-    }
-
-    #nom-projets-Web-design{
-        left: -660px;
-        bottom: -20px; 
-    }
-
     .dispo-adobe-gauche{
         gap: 60px;
     }
-
 
     .dispo-adobe-gauche p {
         font-size: 0.9rem;
@@ -575,34 +731,9 @@ button:hover{
     #ItripsSSS{
         width: 9rem !important;
     }
-    
-    .planche-projets img {
-        width: 19rem;
-    }
 
-    .visible2{
-        visibility: hidden;
-        display: none;
-      }
-
-      .Texte-projet p{
+    .Texte-projet p{
         width: 80%;
-    }
-
-    .img45{
-        width: 17rem !important;
-    }
-
-    .img14{
-        width: 4.5rem !important;
-    }
-
-    .img17{
-        width: 15rem !important;
-    }
-
-    .img38{
-        width: 19rem !important;
     }
 
     #nom-projets-Photoshop{
