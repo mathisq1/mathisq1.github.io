@@ -706,6 +706,10 @@ footer h6{
     flex-direction: column;
     align-items: center;
   }
+
+  .projettag{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -723,8 +727,18 @@ footer h6{
     height: 12rem;
   }
 
-  .projettag80 {
-    width: 80%;
+  .projet{
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
+
+}
+
+@media screen and (max-width:430px) {
+
+  .visible{
+      display: none;
+  }
+  
 }
