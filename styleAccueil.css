@@ -530,6 +530,17 @@ footer h6{
 
 }
 
+/* Annimation */
+
+.projetimage {
+  transition: all 0.3s ease-in-out;
+}
+
+.projetimage:hover {
+  transform: scale(1.03);
+  filter: brightness(80%);
+}
+
 /* CSS responsive  */
 
 @media screen and (max-width: 1300px) {
