@@ -15,4 +15,3 @@ const observer = new IntersectionObserver(entries => {
   viewbox.forEach(animation2 => {
     observer.observe(animation2);
   });
-
