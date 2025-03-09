@@ -755,7 +755,7 @@ footer h6{
 }
 
 
-@media screen and (min-width:500px) { 
+@media screen and (max-width:500px) { 
   
   #XR h3{
     font-size: 1.5rem !important;}
